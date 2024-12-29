@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Удивительный Барни</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f6f8fa;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .description {
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #333;
+            margin: 20px 0;
+        }
+
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: relative;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Знакомьтесь, Барни!</h1>
+    <nav>
+        <a href="#description">Описание</a>
+        <a href="#gallery">Галерея</a>
+        <a href="#contact"></a>
+    </nav>
+</header>
+
+<div class="container">
+    <section id="description">
+        <h2>О Барни</h2>
+        <p class="description">
+            Барни - это невероятный и красивый компаньон. Он всегда веселый, хочет общаться и радует нас своими шалостями! 
+            У него длинная, пушистая шерсть, благодаря которой он привлекает всеобщее внимание на улице. Он любит играть в парке и 
+            проводить время с семьей. Каждый день с Барни становится незабываемым приключением!
+        </p>
+    </section>
+
+    <section id="gallery">
+        <h2>Галерея Барни</h2>
+        <div class="gallery">
+            <img src="barney1.jpg" alt="Барни пришел с прогулки">
+            <img src="barney2.jpg" alt="Барни с игрушкой">
+            <img src="barney3.jpg" alt="Барни игроман">
+            <img src="barney4.jpg" alt="Барни задумался о жизни">
+            <img src="barney5.jpg" alt="Барни что-то задумал">
+            <img src="barney6.jpg" alt="Барни элегантно пьет">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2></h2>
+        <p class="description">
+            <strong></strong>
+        </p>
+    </section>
+</div>
+
+<footer>
+    <p>© 2024 Милый Барни</p>
+</footer>
+
+</body>
+</html>
